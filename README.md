@@ -1,6 +1,6 @@
-# MYPACKAGE 
+# MYPROJECT 
 
-This is a template package to start from with new packages.
+This is a template Python project package to start from.
 
 ## Starting new project with this template
 Copy this template and adjust all the information and names according to the current
