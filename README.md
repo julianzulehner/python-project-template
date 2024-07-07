@@ -19,6 +19,27 @@ pip install mkdocs
 pip install "mkdocstrings[python]
 pip install mkdocs-material
 ```
+
+As we want to automate the building processes or tests on each push, we will create a
+git repository...
+```
+git init
+git add --all
+git commit -m "Initial Commit"
+```
+
+This repository is only locally available to create a remote repository, refer to the 
+instructions of the used provider (github, gitlab, sourcetree, etc.)
+
+- [Create a new repo with GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)
+
+Once the repo is created continue with the necessary steps.
+
+```
+git remote add origin git@github.com:<github username>/<repository name>.git
+git branch -M main
+git push -u origin main
+```
 ## Example Documentation
 
 Before using this package be sure you have a version of python 3 installed on your device.
@@ -26,7 +47,7 @@ You can get this from the official [Python Website](https://www.python.org/downl
 
 Clone this repository using git 
 ```
-git clone https://github.com/julianzulehner/mypackage.git
+git clone https://github.com/<github username>/<repository name>.git
 ```
 
 Navigate to the folder in which you cloned the repo and install the package using pip.

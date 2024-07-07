@@ -1,15 +1,23 @@
 @ECHO OFF
 ECHO ********************************************************************
-ECHO                               TESTING CODE
+ECHO                               TEST CODE
 ECHO ********************************************************************
 python -m unittest discover
-ECHO ""
-pyinstaller -F --noconsole "src/mypackage/mygui.py"
+
+ECHO ********************************************************************
+ECHO                              TEST DOCUMENTATION
+ECHO ********************************************************************
+python -m doctest src/mypackage/mymodule.py
+python -m doctest src/mypackage/mygui.py
 
 ECHO ********************************************************************
 ECHO                            UPDATE DOCUMENTATION
 ECHO ********************************************************************
 
+ECHO ********************************************************************
+ECHO                            BUILD APPLICATION
+ECHO ********************************************************************
+pyinstaller -F --noconsole "src/mypackage/mygui.py"
 
 ECHO  ********************************************************************
 ECHO                                SUCCESS
