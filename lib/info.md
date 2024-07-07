@@ -1,0 +1,1 @@
+This folder is for C-language libraries that are used in the project.

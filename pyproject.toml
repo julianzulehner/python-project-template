@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mypackage"
+version = "0.0.1"
+authors = [
+  { name="Julian Zulehner", email="julian.zulehner@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+
+[project.scripts]
+mypackage-cli = "mypackage.mymodule:myfunc"
+
+[project.gui-scripts]
+mypackage-gui = "mypackage.mygui:main"
+
+[project.urls]
+Homepage = "https://github.com/julianzulehner"
