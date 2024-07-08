@@ -2,6 +2,9 @@
 
 This is a template Python project package to start from.
 
+# Full documentation
+See the full documentation [here](https://julianzulehner.github.io/python-project-template/)
+
 ## Starting new project with this template
 Copy this template and adjust all the information and names according to the current
 project you want to do. 
