@@ -77,3 +77,6 @@ it on github run the following command (assuming that the repository is already 
 ```
 mkdocs gh-deploy
 ```
+
+# TODO
+Automate deployment with [Github Actions](https://github.com/features/actions)
