@@ -54,3 +54,26 @@ Navigate to the folder in which you cloned the repo and install the package usin
 ```
 pip install .
 ```
+
+This template package uses the documentation builder MkDocs which is markdown based. To 
+initiate a new documentation run the following command. In this case this was already 
+done, so it is not needed to repeat this step.
+
+```
+mkdocs new .
+```
+
+To start a live server that hosts the documentation created by MkDocs you can run...
+```
+mkdocs serve
+```
+This is especially useful during development. Once this is done, to build the documentation 
+run...
+```
+mkdocs build
+```
+Now that the documentation is ready, you can host it on github (or a different server). To host
+it on github run the following command (assuming that the repository is already available)
+```
+mkdocs gh-deploy
+```

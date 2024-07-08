@@ -1,4 +1,9 @@
-"""
-The package docstring is usually placed here in the __init__.py file of the
-package, as this is its entry point.
+# mypackage/__init__.py
+
+"""Example package to copy from for new projects.
+
+Modules exported by this package:
+
+- `mymodule`: Provides two unrelated functions.
+- `mygui`: Provides a class for a tkinter application.
 """
